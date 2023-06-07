@@ -1,2 +1,23 @@
-# little-lemon-web-app
-The API can receive HTTP requests such as GET, POST, PUT and DELETE, and updates the Django models, which in turn, updates the data in a MySQL database.
+# LittleLemon
+Django Rest Framework Project
+**Meta's course final project**
+
+Setup 
+1. `git clone https://github.com/azmabdu/LittleLemon.git`
+2. `pipenv install`
+3. `python manage.py runserver`
+
+Routes:
+/api/menu-items
+/api/menu-items/<int:id>
+/api/tables
+/api/tables/<int:id>
+/api/users
+/api/users/me
+/api/token/login
+/api/token/logout
+
+
+
+
+
